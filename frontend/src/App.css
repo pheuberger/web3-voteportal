@@ -1,0 +1,131 @@
+body {
+  /* background-color: #2d2c53; */
+  background: linear-gradient(to bottom right, #4d4dff, #242343);
+  background-attachment: fixed;
+  color: rgb(212, 212, 212);
+}
+
+.bold {
+  font-weight: 600;
+  color: rgb(242, 242, 242);
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  color: rgb(242, 242, 242);
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+  margin: 16px auto;
+  width: 480px;
+  font-size: 20px;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+  background-color: #4d4dff;
+  padding: 32px 0;
+  border-radius: 32px;
+}
+
+.results .votecount {
+  font-size: 64px;
+  text-align: center;
+}
+
+.results .center {
+  margin: 0 64px;
+}
+
+.results .center img {
+  height: 256px;
+  width: 256px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.explainer {
+  line-height: 1.5rem;
+  color: rgb(210, 210, 210);
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.button {
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 8px 16px 8px 16px;
+  color: rgb(242, 242, 242);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.miningAnim {
+  margin-top: 24px;
+}
+
+.votelist {
+  margin-top: 48px;
+  margin-left: 0px;
+}
+
+ul {
+  margin-left: 0px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 16px;
+}
+
+.address {
+  font-weight: 500;
+  background-color: rgba(125, 100, 125, 0.6);
+  border-radius: 4px;
+  border: none;
+  padding: 2px 6px;
+  margin-right: 8px;
+}
+
+.loader {
+  margin: 0 auto;
+}
